@@ -8,8 +8,8 @@ dotenv.config();
 const app=express();
 const PORT=5000;
 app.use(cors({
-  origin: "http://localhost:5173",
-  methods: ["GET","POST"],
+  origin: 'https://new-portfolio-pied-two-32.vercel.app', 
+  methods: ['GET','POST','PUT','DELETE','OPTIONS'],
   credentials: true
 }));
 app.use(express.json()); 
