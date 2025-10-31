@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://your-frontend.vercel.app", // abhi localhost bhi rakh sakte ho
+  origin: "https://new-portfolio-pied-two-32.vercel.app/", // abhi localhost bhi rakh sakte ho
   methods: ["GET", "POST"],
   credentials: true
 }));
